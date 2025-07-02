@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Medium Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo" style="font-family: Times New Roman;">Medium</div>
+    <input type="text" placeholder="Search" class="search-bar">
+    <div class="header-right">
+      <button>✏️ Write</button>
+      <button>🔔</button>
+      <div class="user">M</div>
+    </div>
+  </header>
+
+  <div class="notification-bar" style="position:right">
+              ⭐ Get unlimited access to the best of Medium for less than $1/week.
+    <a href="#">Become a member</a>
+  </div>
+
+  
+  <nav class="tab-bar">
+    <span class="active">For you</span>
+    <span>Following</span>
+    <span>Featured <span class="new">New</span></span>
+  </nav>
+
+  <main class="main-container">
+    <section class="feed">
+      <div class="post">
+        <div class="post-text">
+          <p class="post-author">The Latency Gambler</p>
+          <h2 class="post-title">We Cut 80% of Our Query Time by Using This Little-Known SQL Pattern</h2>
+          <p class="post-desc">A simple CTE trick that saved us from a major scaling disaster</p>
+          <p class="post-meta">⭐ May 5 | 👁️ 856 | 💬 21</p>
+        </div>
+        <img src="images/sql.png" alt="SQL Post" class="post-image">
+      </div>
+
+      <div class="post">
+        <div class="post-text">
+          <p class="post-author">Adarsh Gupta</p>
+          <h2 class="post-title">How I Study Consistently While Working a 9–5 Full-Time Job</h2>
+          <p class="post-desc">No, I don’t wake up at 5 AM. And yes, I have a life.</p>
+          <p class="post-meta">⭐ Apr 21 | 👁️ 5.4K | 💬 214</p>
+        </div>
+        <img src="images/study.jpeg" alt="Study Post" class="post-image">
+      </div>
+
+      <div class="post">
+        <div class="post-text">
+          <p class="post-author">Team Timescale</p>
+          <h2 class="post-title">Top 8 PostgreSQL Extensions</h2>
+          <p class="post-desc">Power-up your PostgreSQL setup with these must-have extensions</p>
+          <p class="post-meta">⭐ Apr 10 | 👁️ 3.2K | 💬 115</p>
+        </div>
+        <img src="images/postgres.jpeg" alt="PostgreSQL Post" class="post-image">
+      </div>
+
+      
+    </section>
+
+    <aside class="sidebar">
+      <h3 class="sidebar-heading">Staff Picks</h3>
+      <ul class="staff-picks">
+        <li>
+          <p>Colin Myers</p>
+          <strong>Are You Closer to Podcasters Than Your Friends?</strong>
+          <p>Jun 3</p>
+        </li>
+        <li>
+          <p>In Prism & Pen by Giulio Serafini</p>
+          <strong>Struggling To Make Up My Mind on the Over-Commercialization of Pride</strong>
+          <p>4d ago</p>
+        </li>
+        <li>
+          <p>In Just Start Writing by Scott Lamb</p>
+          <strong>Want to just start writing? Join the “Write with Medium” June micro-challenge</strong>
+          <p>Jun 3</p>
+          <p>See the full list</p>
+        </li>
+      </ul>
+
+      <h3 class="sidebar-heading">Recommended topics</h3>
+      <div class="topics">
+        <span>Programming</span>
+        <span>Self Improvement</span>
+        <span>Writing</span>
+        <span>Data Science</span>
+        <span>Politics</span>
+      </div>
+    </aside>
+  </main>
+
+</body>
+</html>

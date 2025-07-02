@@ -1,0 +1,58 @@
+/* flex properties:
+justify-content:alginment along main axis.
+flex-start/flex-end/centre/space-evenly/
+
+flex-wrap:nowrap/wrap/wrap-reverse
+
+align-items: alignment along cross axis.
+align-content: alignment of space bw and around content
+
+ 
+
+for flex item
+
+align-self: alignment of individual aloong cross axis.
+flex-grow: how much flex item will grow relative to rest flex items if spcae avaialable.
+flex-shrink: how much flex item wil shrink relative to rest of space is available.
+*/
+
+
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 800px;
+    height:200px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content: center;
+}
+
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: blueviolet;
+    align-self: auto;
+}
+#box3{
+    background-color: darkkhaki;
+
+}
+
+#box4{
+    background-color:indianred;
+    flex-shrink:0.5;
+    
+}

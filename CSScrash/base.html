@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        [type='checkbox']
+        {
+            margin: 10px 0px 15px 0px;
+        }
+        .injected-text {
+            margin-bottom: -25px;
+            text-align: center;
+
+        }
+
+        #cat-photo-form {
+            background-color: green;
+        }
+        #heading {
+            color:green;
+        }
+        .thick-greeen-border{
+           
+            border-color:green;
+            border-width:100px;
+            border-style: solid;
+            border-radius: 10px;
+
+        }
+        .yellow-box {
+            background-color:aquamarine;
+            padding:10px;
+
+        }
+        .red-box{
+            background-color: crimson;
+            color:blueviolet;
+            margin-top: 40px;
+            margin-right:20px;
+            margin-bottom:20px;
+            padding: 20px 40px 20px 40px;
+            padding :1.5em;
+        }
+
+        .blue-box{
+            background-color: blue;
+
+        }
+        .larger-image {
+            width: 500px;
+        }
+
+        .blue-text{
+            color:brown;
+        }
+
+        .silver-background {
+            background-color: silver;
+        }
+
+        h2{
+            color:blue;
+          border-color:red;
+          border-width:100px;
+
+        }
+
+        p {
+            color:red;
+        }
+        .red-text {
+            color:red;
+            font-size:30px;
+
+        }
+        p {
+            font-size:16px;
+            font-family: Helvetica,monospace;
+        }
+        h2{
+            font-family:lobster,monospace;
+            background-color: blue;
+        }
+
+    </style>
+
+    <div class="silver-background"></div>
+
+        <p style="color:blue;"></p>
+
+    <h2 style="color:red">CatPhotoApp</h2>
+
+    <p class="red-text">Click here to view More </p>
+    <a href="#"> <img class="larger-image"></a>
+    <p classs="blue-text">Click here to view more</p>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box-container{
+            height:500px;
+            display:flex;
+            flex-direction:row;
+            flex-direction: column;
+            justify-content:center;
+        }
+        
+        .item5 {
+            background: paleturquoise;
+            grid-area:header;
+            grid-area:1/1/2/4;
+
+
+        }
+        
+
+        body{
+            background-color: aqua;
+            color:green;
+            font-family:monospace;
+        }
+
+        #orange-text {
+            color: orange;
+        }
+
+        .pink-text 
+        {
+            color:pink !important;
+        }
+
+        .orchid-text {
+            color: rgb(218,112,214)
+        }
+        
+        .blue-text
+        {
+            background-color: rgb(0,255,0);
+            color:blue;
+        }
+
+        .container {
+            font-size: 40px;
+            width:100px;
+            background:lightgray ;
+            display: grid;
+
+            grid-template-columns: auto 50px 10px 2fr 1fr;
+            grid-template-rows:50px 50px;
+            
+            grid-column-gap: 20px ;
+            grid-row-gap:5px;
+
+            grid-gap: 10px 20px;
+            
+            grid-column:2/3;
+            
+            grid-row: 2 / 4;
+
+            grid-template-rows: 50px 50px;
+            grid-template-rows: repeat(2,lfr 50px) 20px;
+
+
+            grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)) ;
+            align-items:end;
+
+
+            grid-template-areas: 
+            "header header header"
+            "advert content content"
+            "footer footer footer";
+
+
+        }
+
+
+        @media(min-width:400px){
+            .container{
+
+                grid-template-areas: 
+                header
+                divert
+                content
+            }
+        }
+    </style>
+
+    <div class="container">
+        <div class="d1">1</div>
+        <div class="d2">2</div>
+        <div class="d3">3</div>
+        <div class="d4">4</div>
+        <div class="d5">5</div>
+    </div>
+</head>
+<body>
+    <h1 class="pink-text blue-text" id="orange-text" style="color:white;">Hellow Wordl</h1>
+</body>
+</html>

@@ -1,0 +1,56 @@
+#one{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+#two{
+    height: 50px;
+    width:30px;
+    background-color: bisque;
+    margin-left: 10px;
+    font-size: 2em;
+    width: 5rem;
+    height: 10vh; 
+
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border: 2px solid ;
+    display: inline;
+    
+
+}
+#box1{
+    background-image: url("bg.png");
+    background-size: contain;
+    height:500px;
+    position: static;
+    
+
+}
+body{
+    background-image: url("bg.png");
+    background-size: cover;
+    
+}
+
+#box2{
+    position:relative;
+    top:20px;
+    left:10px;
+    z-index:1;
+}
+
+#box3{
+    position: absolute;
+    top:10px;
+
+}
+#box4{
+    position: fixed;
+
+}

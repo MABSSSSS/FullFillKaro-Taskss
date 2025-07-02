@@ -1,0 +1,14 @@
+h1{
+    text-transform: capitalize;
+}
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#outer{
+    font-size: smaller;
+}
+#inner{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
