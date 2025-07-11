@@ -1,0 +1,101 @@
+Why learn HTML:
+
+WEBSITE/Web pages
+career as webdesigner
+Mobile app development(Ionic/Phonegap)
+
+Software requirement:
+HTML editor(notepad,notepad++,vs code,sublime)
+Browser(Chrome,firefox,internet explorer,safari,Opera)
+
+**HTML Basic syntax:**
+
+<tag>(tags)2</tag>(closing tag)
+
+head tag 
+title tag 
+
+html file save(file.html)
+
+**HTMLtextformatting**
+
+headings
+paragraphs
+bold 
+Italic 
+underline
+strikethrough
+
+Sub script
+Super script 
+Break 
+Non-breaking Space.
+
+Font tag:
+Color
+Size 
+Face
+
+
+HTML Listing tabs:
+
+Unorder list:
+a,b,d,c
+Order list:
+1,2,3,4
+
+Description List :
+
+**Marqueee Tag:**
+
+
+**HTML Performatted and Horizontal Rule:** 
+
+**HTML Image tag:**
+
+
+**HTML Anchor Tags:**
+
+external page link or othersite link.
+Internal Page link.
+Mailto Link.
+
+Hyper Link 
+
+
+**HTML Table Tag:**
+callspan and row span
+
+Table Layout:**
+
+th,thead,tbody,Tfoot.
+
+**HTML IFRAME Tag:**
+
+HTML AudiO Tag:**
+
+MP3
+Ogg Mav
+
+
+**Vedio Fomrats:**
+MP4
+WebM
+Ogg
+
+
+**HTML Form tags:**
+
+HTML new input types:
+
+Color
+number 
+range 
+date
+datetime-local 
+month
+week
+time 
+email 
+search
+title

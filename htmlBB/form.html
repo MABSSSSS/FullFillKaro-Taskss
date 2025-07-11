@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tags</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Employee Personal Detail</legend>
+        <label>Name</label> <input type="text" name="fname" value="" placeholder="Enter your name"/><br><br>
+        <label for="">Password</label> <input type="password" name=""/><br><br>
+        <label for="">Gender</label><input type="radio" name="gender" id="male"/><label for="male">Male</label><input type="radio" name="gender" id="female"><label for="female">FeMale</label>
+        <br><br>
+
+        <label for="">Hobbies</label><input type="checkbox" name="hobby" id="music"/><label for="music">Music</label><input type="checkbox" name="hobby" id="football"/><label for="football">Football</label>
+          <br><br>
+
+        <label for="">Message</label> <textarea rows="22" cols="45" id="">Text Area</textarea>
+         <br><br>
+
+        <label for="">Country</label>
+        <select name="" id="" size="2" multiple>
+            <option value="Pak" selected>Pakistan</option>
+            <option value="Taji">Tajikistan</option>
+            <option value="Wz">Waziristan</option>
+            <option value="Jn">Japan</option>
+            <option value="Saudi">KSA</option>
+            
+
+        </select>
+        <br><br>
+
+        <label for="">Cars</label>
+        <select name="" id="">
+        <optgroup label="Toyota">
+            <option value="" >Innova</option>
+            <option value="">Fortuner</option>
+            <option value="">Lagenda</option>
+        </optgroup>
+        <optgroup label="Renault">
+            <option value="" >Kwid</option>
+            <option value="">Duster</option>
+            <option value="">Captur</option>
+        </optgroup>
+        </select>
+        <br><br>
+
+        <label for="">Cars</label> 
+        <input type="text" list="cars">
+        <datalist id="cars">
+           <option value="Innova"></option>
+           <option value="Kwid"></option>
+           <option value="Etios"></option>
+           <option value="Swift"></option>
+           <option value="Duster"></option>
+
+        </datalist>
+           <br><br>
+        <label for="">Upload File</label> <input type="file" name="" accept="image/*"/>
+        <br><br>
+
+        <input type="submit"  value="save" />
+        <input type="button" value="Click" /><br><br>
+        <input type="reset">
+
+        <input type="image" src="/lesson1/bg.png" width="10px" alt="Submit button"  />
+
+    </form>
+    </fieldset>
+</body>
+</html>
