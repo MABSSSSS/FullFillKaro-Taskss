@@ -1,0 +1,133 @@
+CSS
+
+cascading style sheet
+
+styling html tags.
+responsive website.
+animation on webpage.
+2D and 3D transformation of HTML elements.
+website development process fast.
+
+software requirement:
+CSS editor
+Browser.
+
+3 ways to implement CSS:
+
+Inline style.
+Inpage style tag.
+external stylesheet.
+
+CSS Basic Selectors.
+
+**by tag name.**
+
+Class can use multiple times in one page.
+Id can use only one time in one page.
+
+
+CSS Border:
+
+border-width.
+border-style.
+border-color.
+
+Border-style:
+
+solid,dotted,dashed,
+double,groove,ridge,inset,outset,none,mix...
+
+CSS Border Shorthand:
+
+border: 2px solid red;
+
+CSS Border side:
+
+border-top.
+
+**CSS outline:**
+
+outline-width
+outline-size
+Outline-color
+outline-offset 
+
+outline-width:2px;
+style:solid;
+color:red;
+
+CSS Padding properties:
+top right left bottom.
+
+padding shorthand: padding 10px 20px 15px 25px;
+
+
+**Margin:**
+top right bottom left 
+
+margin auto:(to pick it in center)
+
+
+CSS height and width:
+
+min and max height:
+
+min and max width:
+
+
+**Box Sizing:**
+
+
+**CSS Overflow:**
+
+hidden.
+scroll.
+Auto.
+Visible.
+
+3 TYPES Of overflow properties:
+
+overflow
+overflow-x
+overflow-y
+
+**Border-radius:**
+top-left,top-right,bottom-right,bottom-left.
+
+shorthand:border-radius.
+
+FLOAT
+
+CLEAR:
+
+
+Font properties:
+
+size,family,weight,style.
+
+line height:
+
+Text properties:
+ 
+ text-align
+ text-align-last
+ text-transformation
+ text-indent
+
+
+ text decoration-line:
+
+underline,overline,line-through,none.
+
+style:
+solid,dotted,wavy 
+
+shorthand:
+text-decoration:underline red wavy;
+
+
+Word wrap and word-break:
+
+break-all, keep-all
+
+text shadow:
