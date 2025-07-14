@@ -1,0 +1,22 @@
+div{
+    width:100px;
+    height:200px;
+    margin:25px;
+    padding:25px;
+    display:inline-block;
+    background-color: rgba(red, green, blue, alpha);
+
+}
+
+#box1{
+    background-color: rgba(red, green, blue, alpha);
+}
+#box2{
+    background-color: rgba(red, green, blue, alpha);
+}
+button{
+    display: block;
+}
+#box2{
+    display: grid;
+}

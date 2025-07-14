@@ -1,0 +1,16 @@
+.contentBox{
+    height: 100px;
+    width:200px;
+    border: 2px solid blanchedalmond;
+}
+
+#content{
+    height: 700px;
+
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+HTML,CSS AND JAVASCRIPTS
+
+FRAMEWORKS(react,angular and vue)
+
+version control systems:
+Git
+
+How web works:
+url(uniform resource location)
+
+
+Client Server used http to talk each other
+
+message depend upon request and response.
+200 ok
+
+DOM(Document object Model)
+
+
+Inspecting http request and responses:
+
+
+HTML Basics:
+
+CSS basics:
+
+Formatting code:
+
+Validating webpages:
+
+Head section:
+
+Text:
+
+Hyperlinks:
+
+Entities:
+
+Images:

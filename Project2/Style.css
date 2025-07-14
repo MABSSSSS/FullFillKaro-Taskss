@@ -1,0 +1,211 @@
+/* style.css */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #121212;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 10px 30px;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  flex-shrink: 0;
+  
+}
+
+.search-bar {
+  width: 260px;
+  padding: 8px 35px 8px 40px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background: url('https://cdn-icons-png.flaticon.com/512/622/622669.png') no-repeat 10px center;
+  background-size: 16px;
+  background-color: #f9f9f9;
+}
+
+.header-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-right button {
+  font-size: 14px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.user {
+  background-color: #333;
+  color: white;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+
+.notification-bar {
+  background-color: #faf9f8;
+  padding: 10px 30px;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.notification-bar a {
+  font-weight: bold;
+  color: black;
+}
+
+.tab-bar {
+  display: flex;
+  padding: 10px 30px;
+  border-bottom: 1px solid #ccc;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.tab-bar .active {
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+}
+
+.new {
+  background-color: green;
+  color: white;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  gap: 40px;
+}
+
+.feed {
+  flex: 2;
+}
+
+.post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.post-text {
+  max-width: 65%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.post-author {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.post-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.post-desc {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.post-meta {
+  font-size: 14px;
+  color: #999;
+}
+
+.post-image {
+  width: 260px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+
+.sidebar {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #121212;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar h3 {
+  font-size: 16px;
+  margin: 20px 0 10px;
+  font-weight: bold;
+}
+
+.staff-picks li {
+  margin-bottom: 20px;
+  list-style: none;
+  position: relative;
+  padding-right: 80px;
+}
+
+.staff-picks li strong {
+  display: block;
+  color: #121212;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.staff-picks li .date {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 12px;
+  color: #888;
+}
+
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.topics span {
+  background-color: #f2f2f2;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  white-space: nowrap;
+}

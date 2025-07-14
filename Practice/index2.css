@@ -1,0 +1,23 @@
+div 
+{
+    color:blue;
+    height: 100px;
+    width: 100px;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: brown;
+    border-radius:25px;
+    padding: 20px;
+    padding-bottom: 20px;
+    padding: 1px 2px 3px 4px;
+    margin-top: 50px;
+    margin:25px;
+    
+}
+
+h1{
+    width: 100px;
+    height: 100px;
+    border:2px solid brown;
+    text-align: center;
+}

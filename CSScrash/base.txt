@@ -1,0 +1,71 @@
+inline styles:
+use CSS slectors to style elements:
+use CSS class to styel element 
+style multiple elements 
+change fontsize of element  
+set font family property
+import google font.
+specify how font should degrade.
+size your images.
+add borders around your element.
+Add rounded corners with border radius.
+make circular images with border radius.
+give background color with div elements.
+set the id of an element.
+use an id attribute to style an element.
+adjust padding of an element.
+adjust margin of element.
+add different padding to each side of an element.
+add different margin to each side of an element.
+use clockwise notation to specify padding of elements.
+use clockwise notation to specify margin of elements.
+use attribute selector an elements.
+use absolute vs relative units
+inherit styles from body element
+prioritze one style over another
+overwrite styles in CSS fonts.
+override class declarations by styling ID attributes.
+override class declarations by inliine styling .
+override all other styles by using important.
+Use hex code for specific colors.
+use hexx code to mix colors.
+use abbreviated hex code.
+use rgb values to color elements.
+use rgb to mix colors.
+use CSS variables to change several items at once.
+create custom CSS variable.
+Attach fallback values to CSS variable.
+Improve compatibility with browser fallbacks.
+CSS variables.
+Change variable for specific area.
+use media query to change variables.
+create first CSS Grid.
+Add columns with grid template columns.
+Use CSS grid units to change size of columns and Rows.
+Create column gap using grid-column-gap.
+Create row gap using grid-row-gap.
+Add gaps faste with grid-gap.
+use grid row to control spacing.
+Align item vertically using justify items.
+Align item vertically using justify items.
+Align all items vertically using align items.
+divide grid into area template.
+use grid area without using template.
+Limit item size using minmax function.
+create flexible layouts using autofill.
+create flexible layouts using autofit.
+Use media queries to create responsive layouts.
+Create grids within grids.
+Use display:flex to postion two boxes.
+Add flex superpowers to tweet embed.
+Use flex direction property to column styles.
+Use flex direction property to column styles in tweet embed.
+Align elements using justify content property.
+use flex wrap property to wrap row or columns.
+use flex-shrink property to shrink items.
+use flex-grow property to expand items.
+use flex basis property to set initial size of items.
+use flex shorthand property.
+use order property to rearange items.
+Use the align-self property.
+
