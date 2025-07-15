@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: white;
+            font-family: arial;
+        }
+        @media screen and (max-width:1200px){
+            body{
+                background: pink;
+            }
+
+        }
+        table{
+            width:300px;
+            table-layout: auto;
+
+
+        }
+        tr:nth-child(even){
+
+        }
+
+        table,td,th{
+            border-spacing:10px;
+            border-collapse:separate;
+            empty-cells:hide;
+
+
+
+        }
+        caption{
+            caption-side:bottom;
+
+        }
+        #box{
+            border:1px solid red;
+            background: papayawhip;
+            text-align: center;
+            width:500px;
+            height:300px;
+            overflow:auto;
+            resize:both;
+            margin-bottom:20px;
+            cursor:pointer;
+            
+
+
+        }
+        textarea{
+            resize:horizontal;
+        }
+
+
+        
+
+    </style>
+</head>
+<body>
+    <div id="box">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga itaque dicta, officiis mollitia ut odio laudantium cumque nihil vero dolore. Accusantium libero quibusdam quam commodi eaque, porro dignissimos laborum!
+    </div>
+</body>
+</html>

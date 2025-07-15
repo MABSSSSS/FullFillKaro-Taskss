@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image</title>
+    <style>
+        body{
+            background-image: url(images/flower.jpg);
+            background-repeat: no-repeat;
+            background-position: right top;
+
+            background-attachment: fixed;
+            background-size:50%;
+
+            background-origin: content-box;
+            background-clip: border-box;
+            opacity:o.5;
+            filter: alpha(opacity=50);
+
+            
+        }
+        img{
+            float:left;
+            margin-right:15px;
+
+        }
+
+        ul{
+            list-style-type: circle;
+            list-style-position: inside;
+            list-style-image: url();
+            border: 1px solid red;
+            mix-blend-mode: overlay;
+
+        }
+        img
+        {
+            mix-blend-mode: hard;
+
+        }
+        h1{
+            color:white;
+            background-image: url();
+            font-size:200px;
+            font-family:impact;
+            background-clip: text;
+            background-color: rgb(0,0,220);
+            background: repeating-linear-gradient(-45deg,blue,red,yellow);
+            background: radial-gradient(closest-side at 50% 50% , red, yellow, green);
+
+            background-image: linear-gradient(to-right,red,yellow), url(/CSSS/img.jpg);
+            background-blend-mode: difference;
+            mix-blend-mode: color-dodge;
+
+        }
+        #box{
+            mix-blend-mode: darken;
+        }
+
+        ul li{
+            padding:3px 0;
+
+        }
+        ol{
+            list-style-type:lower-alpha;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box">
+        <img src="/CSSS/img.jpg" alt="">
+    </div>
+    <h1>
+       Yahoo Sir:MABS
+    </h1>
+
+    <ul>
+        <li>Orange</li>
+        <li>Apple</li>
+
+    </ul>
+    <ol>
+        <li>Grapes</li>
+        <li>Apricot</li>
+    </ol>
+    
+</body>
+</html>

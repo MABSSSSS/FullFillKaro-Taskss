@@ -131,3 +131,103 @@ Word wrap and word-break:
 break-all, keep-all
 
 text shadow:
+
+White space:
+
+Overflow:
+
+Clip.
+Ellipsis.
+String.
+
+Writing-mode:
+horizontal-tb(default)
+vertical-rl
+vertical-lr
+sideways-rl 
+sideways-lr 
+
+
+CSS Column-count:
+
+font face rule:
+web safe fonts.
+
+
+CSS with google fonts:
+
+List style:
+
+image,position,type and style...
+
+
+Background image:
+
+background attachement.
+scroll, fixed
+
+background size.
+
+auto length cover 
+
+background-origin:
+
+CSS background-clip:
+
+padding box,border-box,content-box and text(experimental).
+
+Colors mode:
+
+name,hexadecimal,Rgb and rgba.
+Hsl and hsla.
+
+rgb(255,0,0)
+hsl(hue,saturation lightness).
+
+rgba(alpha)...;
+
+
+CSS Gradients:
+
+linear,radical,repeated linear gradient.
+
+Opacity:
+
+Background-blend-mode:
+
+
+Mix-blend-mode:
+
+
+CSS display:
+
+Visibility:
+
+visible,hidden and ..
+
+Desing basic layout:
+
+Position:
+
+Z-index:
+
+
+Media Queries:
+
+And Not 
+All 
+Print
+Screen
+Speech
+
+table properties:
+
+CSS Resize:
+
+
+CSS cursor:
+
+CSS units:
+
+Variables:
+var() function...

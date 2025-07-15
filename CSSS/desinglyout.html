@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desgin Basic Layout</title>
+    <style>
+        body{
+ 
+            background: slategray;
+        }
+
+        #wrapper{
+            border:1px solid black;
+            width: 1000px;
+            background: white;
+            margin: 0 auto;
+
+        }
+        #header{
+            background: crimson;
+            color:white;
+        }
+
+        *header h1{
+            padding:40px 0 0 20px;
+
+
+        }
+        #header h1{
+            padding:30px 0 0 20px;
+        }
+
+        #menu{
+            background: lightsalmon;
+        }
+        #menu li{
+            display:inline-block
+        }
+        #menu li a{
+
+            display:block;
+            padding:10px 13px;
+            text-decoration: none;
+            color: black;
+        }
+        #menu li a:hover{
+            background-color: crimson;
+            color:white;
+        }
+        #menu ul{
+            margin: 0;
+            padding:0;
+
+        }
+        #content{
+            width:800px;
+            min-height:500px;
+            float:left;
+            box-sizing: border;
+
+        }
+
+
+        #sidebar{
+            background: lightblue;
+            min-height: 500px;
+            width:200px;
+            float:right;
+
+        }
+        #sidebar a{
+            
+            text-decoration: none;
+            color:black;
+        }
+
+        #footer{
+            background: lightsalmon;
+            clear:both;
+            padding:5px 10px;
+            text-align: right;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div id="wrapper"></div>
+        
+        <div id="header">
+        <h1>Yahoo Sir</h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <div i="content">
+            <h2>Basic Design layout</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit debitis ipsum totam recusandae. Saepe quasi provident, ipsam praesentium, at error dolores libero enim expedita aliquam voluptas ullam recusandae corporis similique?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolorem corporis aut veniam earum fugit cumque ipsa? Explicabo, incidunt. Dolorem eos asperiores vero illum velit, qui natus adipisci odio eius.</p>
+        
+        </div>
+        <div id="sidebar">
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact Us</a></li>
+
+        </div>
+        <div id="footer">
+            yahoo@copyright
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
