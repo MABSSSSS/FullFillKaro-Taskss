@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Decoration-break And Quotes</title>
+ 
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 30px;
+        }
+
+        span{
+            background-image: linear-gradient(red,yellow);
+            background: wheat;
+            font-size:21px;
+            line-height: 40px;
+            border: 2px solid red;
+            border-radius:5px;
+            box-decoration-break: clone;
+            padding:10px;
+
+        }
+        q{
+            quotes:"$" "&";
+            font-size:20px;
+            background:wheat;
+            padding: 10px;
+            line-height: 40px;
+
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <h1 style="margin-bottom:50px">Yahoo Sir</h1>
+    <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid earum expedita praesentium qui accusantium sit corrupti optio, cupiditate veniam neque aliquam ducimus vero eius quia animi hic numquam quam recusandae?</q><br><br>
+    
+    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum dolor eum eius minima reprehenderit voluptas beatae, ad tempora iste ea aliquam impedit aliquid laboriosam! Temporibus corrupti molestias quasi exercitationem quidem!</span>
+</body>
+</html>

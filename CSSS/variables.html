@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document filter</title>
     <style>
         root{
             --main:crimson;
@@ -16,7 +16,38 @@
             background: var(--main);
             color:white;
             --head-font:arial;
+            padding: 20px;
+            width:calc(100% -20px -1px -1px);
 
+
+        }
+        img
+        {
+            filter:blur(15px);
+            filter:hue-rotate();
+            
+
+        }
+        #box{
+            background: var(--main);
+            color:white;
+            --head-font:arial;
+            padding: 20px;
+            width:calc(100% -20px -1px -1px);
+
+
+
+        }
+        img{
+            clip-path:circle(40% at 50% 50%);
+
+
+        }
+
+        img{
+            float:left;
+            clip-path: circle(30% at 30% 50%);
+            shape-outside: circle(30% )
         }
 
     </style>
@@ -29,6 +60,7 @@
     
 
 </div>
+<div id="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus exercitationem ab, illo, dicta libero iste modi repudiandae saepe voluptatem numquam nam laborum itaque. Iste at eum suscipit, libero est sunt.</div>
 
     
 </body>

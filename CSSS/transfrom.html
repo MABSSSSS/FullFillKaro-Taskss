@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #box
+        {
+            width:250px;
+            height:150px;
+            background:red;
+            margin:150px 300px;
+            transform: skew(36deg);
+            transform-origin:left top;
+            transform:translateX(80px);
+            transform: scale(2);
+            transform:scale(2);
+            transform:matrix(1,-0.3,0,1,0);
+            transition: transform 1s;
+            transform-origin:left top;
+
+
+
+
+        }
+        #box:hover{
+            transform: scale(2);
+            transform: rotate(30deg) scale(2) skew(30deg);
+
+
+        }
+        .base{
+            width:350px;
+            height:250px;
+            background: grey;
+            font-size:18px;
+            text-align:center;
+            margin: 100px 0 0 100px;
+
+        }
+        #box{
+            width: 350px;
+            height: 250px;
+            background: tomato;
+            transform:  perspective(800px) rotateX(60deg);
+
+            transform: rotateZ(20deg);
+
+            transform: perspective(800px) rotateY(60deg) translate3d(30px,40px,50px) scaleZ(1) ;
+
+
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1>MABS Working</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, vel accusantium provident ducimus repellat eveniet explicabo eligendi quas magni nulla, eaque architecto quos at? Quos magni cum dolore deleniti ducimus!</p>
+ 
+
+    <div id="box">Yahoo Sir</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magni earum obcaecati id architecto. Velit explicabo ipsam, eligendi eos harum accusamus iure, modi in, perspiciatis aspernatur voluptate magnam magni reprehenderit.</p>
+    
+    <div class="base">
+
+        <div id="box">Yahoo Baba</div>
+    </div>
+</body>
+</html>

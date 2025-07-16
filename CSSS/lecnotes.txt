@@ -231,3 +231,57 @@ CSS units:
 
 Variables:
 var() function...
+
+calc() function:
+
+clip path :
+
+Shape outside:
+
+
+filter:
+
+transition:
+
+
+Transfrom 2D:
+
+Transform 3D:
+
+
+Perspective:
+
+
+transform-style:
+
+
+Backface-visibility:
+
+
+Animation:
+
+Animation-fill-mode:
+
+
+Object-fit Tutorials:
+
+user select:
+
+
+Box decoration-Break:
+
+
+CSS Quotes:
+
+
+Border-Image:
+
+Advance Selectors:
+
+Combinators Selectors:
+Attribute Selectors:
+
+
+Pesudo Classes:
+
+

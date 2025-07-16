@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoClasses</title>
+    <style>
+        :root{
+            --mainColor : blue;
+
+        }
+        
+        h1{
+            font-size: 28px;
+            margin-bottom: 35px;
+            color: var(--mainColor);
+        }
+
+        li:first-child{
+            color:red;
+
+        }
+        p:last-child{
+            color:red;
+        }
+        #list li:last-child{
+            color:red;
+        }
+        li:nth-child(3)
+        {
+            color:red;
+        }
+
+        li:nth-child(2n+1){
+            color:red;
+        }
+        li:nth-of-type(2n)
+        {
+            color:red;
+        }
+        p:only-child{
+            color:Red;
+        }
+
+        p:last-of-type{
+            color:red;
+        }
+        div:empty{
+            border:3px solid red;
+        }
+
+        p:not(.test)
+        {
+            color:red;
+
+        }
+
+        p:lang(en){
+            color:red;
+        }
+        p:lang(de){
+            color:blue;
+        }
+
+        ul a:link{
+            color:red;
+        }
+        ul a:hover{
+            color:blue;
+        }
+        h1:hover{
+            color:green;
+        }
+
+        ul a:visited{
+            color:green;
+
+        }
+
+        ul a:active{
+            color:pink;
+        }
+
+        p:target{
+            background: gold;
+
+        }
+
+        input:focus{
+            border: 3px solid red;
+
+        }
+        input[type='checkbox']:checked + label{
+            box-shadow: 0 0 0 3px red;
+        }
+
+        input[type='text']:enabled{
+            border: 2px solid blue;
+
+        }
+        input:enabled{
+            border:2px solid magenta;
+            background:wheat;
+
+        }
+        input:required{
+            border: 2px solid green;
+            background: lime;
+
+        }
+        input:optional{
+            border: 2px 
+        }
+        input:in-range{
+            border: 2px solid green;
+            background: wheat;
+        }
+        input:out-of-range{
+            border: 1px solid red;
+            background: pink;
+
+        }
+        input:read-only{
+            border: 1px solid green;
+            background: wheat;
+
+        }
+        input:read-write{
+            border:1px solid white;
+            background: wheat;
+            
+        }
+
+        input:invalid{
+            border: 1px solid red;
+            background: pink;
+
+        }
+
+        input:valid{
+            border:2px solid green;
+            background: blue;
+        }
+        input:default{
+            box-shadow: 0 0 0 3px red;
+
+        }
+        input:default+label{
+            color:red;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Yahoo Sir</h1>
+
+
+    <ul id="list">
+
+    </ul>
+
+    
+</body>
+</html>

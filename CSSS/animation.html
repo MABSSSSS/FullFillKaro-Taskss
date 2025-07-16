@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+
+    body{
+        font-family: arial,Arial, Helvetica, sans-serif;
+        background: #eee;
+    }
+
+    .card{
+        width:300px;
+        height:300px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        line-height: 300px;
+        margin: -150px;
+        background: white;
+        color:white;
+        text-align: center;
+        font-size:40px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    
+        animation-name: sample;
+        animation-duration: 2s;
+
+        animation-timing-function:steps(6);
+        animation-timing-function: cubic-bezier(0.6,0.1,1.0,1);
+
+        
+
+        animation-iteration-count: 3;
+
+        animation-direction:alternate;
+
+        animation: sample 2s infinite alternate;
+
+        animation-delay:2s;
+
+    }
+
+    @keyframes sample{
+        0%{ border-radius:0%; }
+
+        25%{background-color: green;}
+        50%{background-color: yellow;}
+        50%{border-radius:50%;background-color: tomato; color:white;}
+
+
+        to{border-radius:50%;}
+    }
+
+    .box{
+        width:150px;
+        height:150px;
+        background: black;
+        margin-left:20px;
+        animation :sample 2s 5s;
+        animation-fill-mode:backwards;
+
+        animation-play-state:paused;
+        user-select: none;
+        
+
+        
+
+    }
+    .box:hover{
+        animation-play-state:running;
+
+        
+    }
+    .box img{
+        
+        width:100%;
+        height:300px;
+        object-fit:cover;
+
+
+
+    }
+
+    @keyframes sample{
+
+        0%{background: yellow; width:250px;}
+        0%{background: green; width:250px;}
+        0%{background: red; width:250px;}
+
+    }
+
+
+    </style>
+
+    
+
+</head>
+
+<body>
+    <h1 style="margin-bottom: 50px">Yahoo Sir: CSS Animation</h1>
+
+    <div class="card">Yahoo Sir</div>
+ 
+    <div id="box">
+
+    </div>
+
+    
+</body>
+</html>
