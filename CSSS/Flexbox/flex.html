@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Flexbox</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            padding:0 0 0 40px;
+        }
+
+
+        .container{
+
+            background:#eee;
+            width: 600px;
+            margin: 50px auto 0;
+            padding: 10px;
+            border: 3px solid #000;
+            display:flex;
+            flex-direction: row;
+            width:flex;
+            height: 200px;
+            flex-direction:column;
+            flex-wrap: nowrap;
+
+            flex-flow: column wrap-reverse;
+
+            justify-content: center;
+
+            align-items: flex-start;
+            flex-wrap: wrap;
+            align-content:flex-start;
+
+        }
+
+        .item{
+
+            background: oranged;
+            color: #fff;
+            font-size:20px;
+            font-weight: bold;
+            padding: 10px;
+            margin-left:auto;
+
+
+        }
+        .items{
+            color:#fff;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+            height: 60px;
+            flex-grow:1;
+
+        }
+
+
+        .item1{
+            background: orangered;order:1;
+            align-self: flex-end;
+            flex-shrink:1;
+            flex-basis:200px;
+            flex: 0 0 200px;
+
+        }
+        .item2
+        {
+            background: blue;height: 100px;
+        }
+        .item3
+        {
+            background: red;flex-basis: 200px;
+
+        }
+        .item4
+        {
+            background: brown;margin-right: auto;
+        }
+
+        .items{
+            color:#fff;
+            font-size:20px;
+            font-weight:bold;
+
+            flex-grow:1;
+        }
+        .item2 > .subitem
+        {
+            background: wheat;
+            color: mediumpurple;
+            flex-grow:1;
+            margin: 5px;
+
+        }
+
+
+
+
+        #wrapper{
+            background: #eee;
+            list-style: none;
+            margin: 50px;
+            padding: 20px;
+        }
+        #wrapper li{
+            display: flex;
+            justify-content: flex-end;
+            padding: 5px 0;
+        }
+
+
+        #wrapper li label{
+            flex:1;
+        }
+        #wrapper li input{
+            flex:1;
+        }
+
+        @media screen and (min-width:1200px) {
+            #wrapper li input{
+                flex:6;
+
+            }
+
+        }
+         @media screen and (min-width:992px) {
+            #wrapper li input{
+                flex:5;
+                
+            }
+
+        }
+         @media screen and (min-width:768px ) {
+            #wrapper li input{
+                flex:4;
+                
+            }
+        }
+
+         @media screen and (min-width:500px) {
+            #wrapper li input{
+                flex:3;  
+            }
+
+        }
+         @media screen and (min-width:300px) and (max-width:499px) {
+            #wrapper li input{
+                flex:6;
+                
+            }
+            #wrapper li input{
+                flex:3;
+            }
+
+
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <h1>Class Sir</h1>
+
+    <div class="container">
+        <div class="items item1">One</div>
+        <div class="items item2">Two</div>
+        <div class="items item3">Three</div>
+        <div class="items item4">Four</div>
+    </div>
+
+    <form action="">
+
+        <ul id="wrapper">
+
+            <li>
+                <label for="">Class Name</label>
+                <input type="text">
+            </li>
+            <li>
+                <label for="">Email Address</label>
+                <input type="email">
+            </li>
+            <li>
+                <button type="submit">Save</button>
+            </li>
+        </ul>
+    </form>
+
+
+
+
+    
+</body>
+</html>
+
+

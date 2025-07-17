@@ -151,6 +151,55 @@
 
 
 
+ 
+        p::first-letter{
+            color:red;
+            font-size: 30px;
+            font-weight: bold;
+            background: wheat;
+        }
+
+        li::first-line{
+            color:blue;
+
+        }
+        p::selection{
+            background: red;
+            color:antiquewhite;
+
+        }
+
+        ::placeholder{
+            color: red;
+            font-size: 20px;
+
+        }
+
+        p::before{
+            content: "Hello ";
+            background: red;
+            color:#fff;
+            display:block;
+            margin-bottom: 10px;
+        }
+
+        p::after{
+            content:"World";
+            background: green;
+            color:#fff;
+            display:block;
+            margin-top:10px;
+
+
+        }
+        p:hover::after{
+            content: attr(data-caption);
+            color:red;
+
+
+        }
+
+        
 
 
     </style>
@@ -159,6 +208,7 @@
     <h1>Yahoo Sir</h1>
 
 
+    <p class="test" data-caption="Baba">Yahoo</p>
     <ul id="list">
 
     </ul>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Scroll Bar</title>
+
+    <style>
+
+        #test
+        {
+ 
+            width:250px;
+            height:400px;
+            margin: 50px 20px;
+            border: 1px solid #000;
+            overflow:auto;
+        }
+        #test::-webkit-scrollbar{
+            width:20px;
+            background: grey;
+
+        }
+        #test::-webkit-scrollbar-track{
+            width:20px;
+            background: grey;
+            border-radius:10px;
+
+            
+        }
+        #test::-webkit-scrollbar-thumb{
+            width:20px;
+            background: yellow;
+            box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+
+            
+        }
+         #test::-webkit-scrollbar-corner{
+            width:20px;
+            background: red;
+            box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+
+            
+        }
+        #parent{
+            width:500px;
+            margin: 50px 20px;
+            border:2px solid #000;
+            display: flow-root;
+
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            background: red;
+            float: left;
+        }
+        
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <h1>CSS Scrollbar Styling</h1>
+    <div id="parent">
+        <div class="child"></div>
+    </div>
+
+    <div id="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. In delectus earum itaque aperiam, minus, fuga assumenda reiciendis laborum, reprehenderit placeat impedit quae? Ratione dolorem qui non animi id praesentium labore ex quis?</div>
+    
+</body>
+
+</html>

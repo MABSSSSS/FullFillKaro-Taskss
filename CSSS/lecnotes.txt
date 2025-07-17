@@ -284,4 +284,116 @@ Attribute Selectors:
 
 Pesudo Classes:
 
+Pesudo Element selectors:
 
+
+After and before pseudoelements:
+
+
+attr() function:
+
+Counter-increment And counter Reset:
+
+Caret-color:
+
+
+import rule:
+
+
+Icon Fonts:
+
+
+Scroll Bar Styling:
+
+
+CSS Display Flow-root:
+
+
+Grid Layout:
+
+2D grid system
+It replaces flaot layout.
+fast And clean code.
+No need of CSS frameworks.
+
+
+CSS Grid Building with Rows & Columns:
+
+
+CSS Grid-Gap:
+
+Grid item positioning:
+
+Grid items spanning:
+
+Grid lines Naming:
+
+
+CSS Grid Area:
+
+Grid Minmax function":
+
+
+CSS Grid Implicit & Explicit Grid:
+
+
+Grid Items Alignment:
+
+Grid Tracks:
+
+
+Auto-fill & Auto-fit:
+
+Grid fit-content tuturioal:
+
+
+CSS Grid Order:
+
+
+Grid-nested Grids:
+
+
+Grid-overlapping Grdi items:
+
+
+CSS Flexbox:
+
+align items in diff directions and orders.
+gives container ability to expand and shrink elements to best use all avaialable space.
+CSS Flexbox layout replaces float layout.
+New way to build one dimensional layouts.'
+
+
+Flexbox-direction:
+
+
+Flex-wrap And Flex-flow:
+
+
+flex justify content:
+
+
+flexbox align-items:
+
+
+flexbox align-Content:
+
+Align-self: 
+
+
+Flexbox Order:
+
+flexbox flex-grow:
+
+flex-basis:
+
+
+flex-shrink;
+
+Flexbox WITH Margin Auto:
+
+Flexbox nested flex:
+
+flexbox-Align form elements:
+
+flexbox-layout website:
