@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Backdrop</title>
+
+    <style>
+        #container{
+            width: 600px;
+            height: 600px;
+            border: 5px solid #000;
+            background: url(/CSSS/img.jpg) no-repeat;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rga(255,255,255,0.2);
+            backdrop-filter: blur(2px);
+            backdrop-filter: hue-rotate(120deg);
+            backdrop-filter: sepia(90%);
+            backdrop-filter: blur(4px) sepia(80%);
+
+
+
+        }
+        #inner{
+            width: 400px;
+            height: 250px;
+            border-radius: 5px;
+            border-width: 2px solid #fff;
+            border: 2px solid white;
+            background-color: rgba(255,255,255,0.4);
+            backdrop-filter:brightness(100%);
+            transition: backdrop-filter .3s;
+
+        }
+        #inner:hover{
+            backdrop-filter: blur(4px) sepia(80%);
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <div id="container">
+        <div id="inner">
+            <h1>Inner Yahoo Sir</h1>
+
+        </div>
+    </div>
+    
+</body>
+</html>

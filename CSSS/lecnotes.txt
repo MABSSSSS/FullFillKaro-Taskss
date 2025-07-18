@@ -396,4 +396,59 @@ Flexbox nested flex:
 
 flexbox-Align form elements:
 
+
 flexbox-layout website:
+
+Text decoration:
+
+Text Underline Offset:
+
+CSS CurrentColor:
+
+Marker Peuso Element:
+
+Important hack tuturioal:
+
+
+CSS@supports:
+feature detection in browser.
+
+
+Placeholder-Shown:
+
+
+List-style-Type String:
+
+
+Scroll-Behaviour:
+
+Scroll-snap:
+
+File-Selector-Button Pesudo Element:
+
+
+Backdrop filter:
+
+
+Is() Pseudo Class:
+
+
+Text-orientation:
+
+Focus-within PesudoClass:
+
+
+CSS Display Table:
+
+Accent Color:
+
+
+CSS Prefer color schemes:
+
+Aspect Ratio:
+
+
+Display Mode:@media-rule:
+
+
+Fullscreen PseduClass:

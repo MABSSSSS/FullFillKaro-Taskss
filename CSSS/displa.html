@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+    
+
+
+    body{
+        font-family: arial;
+        font-size: 20px;
+        line-height: 24px;
+
+    }
+    h1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #table{
+        display: table;
+        width: 700px;
+        border: 1px;
+        margin: 0 auto;
+
+    }
+    .row{
+        display: table-row;
+    }
+    #table-header{
+        display: table-header-group;
+        background: lightblue;
+        text-align: center;
+        font-weight: bold;
+
+    }
+
+      .col-2{
+        background: pink;
+        width: 400px;
+        text-align: center;
+        border: 1px solid blue;
+
+      }
+      .col-1{
+        background: yellow;
+      }
+
+    .col{
+        display: table-cell;
+        border: 1px solid #000;
+    }
+    .caption {
+        display: table-caption;
+        text-align: center;
+        text-transform: uppercase;
+        color: red;
+    }
+    body {
+        font-family: arial;
+        font-size: 16px;
+
+    }
+
+    @media (display-mode: fullscreen){
+        h1{
+            color:green;
+        }
+
+    }
+    @media (display-mode:browser){
+        h1{
+            color:green;
+        }
+
+    }
+    @media (display-mode: minimal-ui){
+        h1{
+            color:blue;
+
+        }
+    }
+    
+    input{
+        width: 15px;
+        height: 15px;
+        accent-color:red;
+        
+    }
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Display : Table</h1>
+
+    <form action="">
+        Hobbies :
+        <input type="checkbox" name="hobby"> Sports
+        <input type="checkbox" name="hobby"> Music
+        <input type="checkbox" name="hobby"> Books
+         <br><br>
+        Gender : 
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">FeMale
+
+
+    </form>
+    <div id="table">
+        <div class="row">
+            <div class="column">A</div>
+        </div>
+
+        <div class="col">A</div>
+        <div class="col">B</div>
+        <div class="col">C</div>
+    </div>
+
+    
+</body>
+</html>

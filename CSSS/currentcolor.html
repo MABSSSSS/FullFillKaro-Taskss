@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: arial;
+        }
+        h1{
+            text-align: center;
+            padding-left: 20px;
+            color:red;
+            font-size: 22px !important;
+        }
+
+        .first{
+            color: green !important;
+
+        }
+        #second{
+            color:blue;
+        }
+
+        #test{
+            color:red;
+            width: 500px;
+            padding: 10px;
+            margin:0 auto;
+            border: 2px solid #000;
+
+        }
+        #test h2{
+            border-bottom: 2px solid CurrentColor;
+
+        }
+        #test .readmore{
+            color: CurrentColor;
+
+        }
+
+        ul li::marker{
+            color: red;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <h1 class="first" id="second" style="color:orange">CSS CurrentColor Mode</h1>
+    <ul>
+        <li>Orange</li>
+        <li>Orange</li>
+        <li>Orange</li>
+        <li>Orange</li>
+    </ul>
+    <ol>
+        <li>Grapes</li>
+        <li>Grapes</li>
+        <li>Grapes</li>
+        <li>Grapes</li>
+    </ol>
+
+    <div id="test">
+        <h2>Yahoo Sir</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum omnis eveniet numquam minima incidunt veritatis hic assumenda expedita molestiae, doloremque reprehenderit quidem, sequi facere adipisci impedit esse? Deserunt, debitis doloremque!</p>
+        <a class="readmore" href="">Readmore</a>
+    </div>
+    
+</body>
+</html>

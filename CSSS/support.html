@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Placeholder Shown</title>
+    <style>
+
+        html{
+            scroll-behaviour: smooth;
+
+        }
+        :root{
+            --test : green;
+
+        }
+        @supports (text-underline-offset: 2px)
+
+        {
+            body{
+                background: orange;
+
+            }
+        }
+        @supports(filter:blur(2px)) or(-webkit-filter: blur(2px)){
+            body{
+                background: orange;
+            }
+
+        }
+        body{
+            color:blue;
+
+        }
+
+        h1{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        input{
+            font-size: 20px;
+            border: 3px solid black;
+            width: 300px;
+            padding: 5px;
+
+        }
+        input[type="text"]:placeholder-shown{
+
+            border: 3px solid red;
+        }
+
+        ul{
+            list-style-type:'Test';
+            list-style-position:inside;
+            line-height: 35px;
+
+        }
+        #scrolldiv{
+            width: 900px;
+            height: 500px;
+            overflow-y: auto;
+            scroll-behaviour:smooth;
+
+        }
+        
+
+
+         
+    </style>
+</head>
+<body>
+    <h1>Placeholder</h1>
+
+    <div id="menu">
+        <a href="#"></a>
+    </div>
+
+    <form action="">
+
+        <input type="text" placeholder="Enter Name"><br><br>
+        <input type="text" placeholder="Enter Address"><br><br>
+        <input type="number" placeholder="Enter Percentage"><br><br>
+        <input type="email" placeholder="Enter Email"><br><br>
+
+    </form>
+    
+</body>
+</html>

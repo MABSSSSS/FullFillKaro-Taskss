@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="color-scheme" content="dark" >
+
+    
+
+    <style>
+        :root{
+            --base-color: orange;
+
+        }
+        body{
+            background: var(--base-color);
+        }
+        @media(prefers-color-scheme: light)
+        {
+            :root{
+                --base-color: pink;
+            }
+        }
+
+          @media(prefers-color-scheme: dark)
+        {
+            body{
+                background: lightgreen;
+                font-size: 25px;
+
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

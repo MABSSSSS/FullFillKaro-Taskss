@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Pesudo Class</title>
+    <style>
+
+        body{
+            font-family:Roboto, Helvetica;
+
+        }
+
+        form:focus-within {
+            background: #ffeaa7;
+
+        }
+        form > div:focus-within {
+            background: #81ecec;
+            
+
+        }
+
+        #test1:is(h1,h2,h3){
+            font-family: arial;
+            color:red;
+        }
+        
+        #test1 h1,
+        #test2 h2,
+        #testt1 h3
+        {
+            font-family: arial;
+        }
+
+
+        #test1{
+            width:550px;
+            border: 2px solid #000;
+            font:17px arial;
+            padding: 10px;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+
+        }
+
+        #test{
+            width: 550px;
+            border: 2px solid #000;
+            font: 17px;
+            padding:10px;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div id="test1">
+        <h1>
+            Section1
+        </h1>
+        <h2>Subheading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, nulla dicta. Expedita deleniti cum error enim quis iure similique, laudantium magni suscipit, dolores rerum voluptas quaerat fuga fugit maxime, perferendis vero id nulla corporis deserunt maiores nam mollitia unde? Voluptatem commodi mollitia quas ipsa doloribus in, est dicta cum quae?</p>
+        <h3>Sub heading 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, tempore.</p>
+    </div>
+    <div id="test2">
+ <h1>
+    Section2
+ </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatum sapiente excepturi doloribus praesentium! Voluptate porro repellat maxime odit facere, cumque, nulla suscipit, dolor laborum tenetur obcaecati! A incidunt molestiae expedita soluta aspernatur nemo sunt dicta voluptate saepe, alias nulla sint repudiandae fugit, cum odit neque consequatur qui eaque perspiciatis architecto. Tempora quos temporibus molestias?</p>
+    </div>
+
+    <div id="test">
+        <h1>Yahoo Sir</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus esse fuga laudantium modi repellat cum quaerat possimus reprehenderit unde omnis similique eos, nostrum quisquam molestiae accusantium, officia voluptas, illo suscipit.</p>
+    </div>
+
+
+    
+
+</body>
+</html>

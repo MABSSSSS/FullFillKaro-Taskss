@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document FullScreen Pseudo Class</title>
+
+    <style>
+        body{
+            font-family: arial;
+            font-size: 16px;
+        }
+
+        #box{
+            background: lightblue;
+            width: 300px;
+            height: 200px;
+        }
+        #box:fullscreen{
+            background: lightgreen;
+            font-size: 40px;
+        }
+        #box:fullscreen p{
+            color:red;
+        }
+        #box:not(:fullscreen) p{
+            color:green;
+        }
+        #box:-webkit-full-screen{
+            background: lightgreen;
+            font-size: 40px;
+        }
+        #box:-ms-full-screen{
+            background: lightgreen;
+            font-size: 40px;
+        }
+        #box:fullscreen{
+            background: url('/CSSS/img.jpg');
+            font-size: 40px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- <div id="box"> -->
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, magni?</p> -->
+    <!-- </div> -->
+    <!-- <br> -->
+    <!-- <button onclick="document.getElementById('box').requestFullscreen();">Go Full Screen</button> -->
+
+    <img src="/CSSS/img.jpg" id="box" alt="">
+    <br>
+    <button onclick="document.getElementById('box').requestFullscreen();">Go Full Screen</button>
+
+
+    
+</body>
+</html>
