@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            display:flex;
+            border: 1px solid #000;
+
+        }
+        #parent > div{
+            border: 1px solid #000;
+        }
+        @media (orientation: landscape){
+            body{background: pink;
+            }
+            #parent{
+                flex-direction:row;
+            }
+
+        }
+
+        @media (orientation: portrait){
+            body{
+                background: lightblue;
+            }
+            #parent{
+                flex-direction: column;
+            }
+
+            
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="parent">
+        <div>box1</div>
+        <div>box2</div>
+        <div>box3</div>
+    </div>
+    
+</body>
+</html>

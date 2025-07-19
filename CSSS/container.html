@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+
+        }
+        .post{
+            border: 1px solid #000;
+            width: 80%;
+            aspect-ratio: 2/1;
+            container-type: inline-size;
+
+        }
+
+        .post2{
+            margin-top: 20px;
+            border: 1px solid blue;
+            width: 80%;
+            aspect-ratio: 2/1;
+            container-type: inline-size;
+            container: my-post / inline-size;
+            container-name: mypost mycard;
+        }
+
+        .card h2{
+            font-size: 1em;
+            font-size: 1cqw;
+            font-size: 5cqh;
+        }
+        
+        
+
+        @container (max-width: 600px){
+            .card h2{
+                color:red;
+                font-size: 3em;
+                container-type: size;
+                container-name: mypost;
+              
+            }
+        }
+        .post + span{
+            font-size: 30px;
+            background: orangered;
+            color:#fff;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1>Container Query</h1>
+
+    <div class="post">
+        <div class="class">
+            <h2>Card Title</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        </div>
+    </div>
+
+    <div class="post2">
+        <div class="class">
+            <h2>Card Title</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        </div>
+    </div>
+    
+</body>
+</html>

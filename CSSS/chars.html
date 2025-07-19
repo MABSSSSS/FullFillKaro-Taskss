@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Hypens And Hypenate Characters</title>
+
+    <style>
+        #box{
+            width: 150px;
+            height: 150px;
+            margin: 30px;
+            border: 1px solid #000;
+            background: pink;
+            hyphens:auto;
+            hyphenate-character: '&';
+            hyphenate-limit-chars: 30 10 10;
+
+        }
+        img{
+            clip-path: inset(15% 35% 15% 35%);
+            object-view-box: inset(15% 35% 15% 35%) ;
+            width: 300px;
+            aspect-ratio: 1;
+            object-fit: cover;
+            
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="box">
+        Lorem ipsum dolor sit amet cons&shy;, adipisicing elit. 
+        At repellat praesentium perspiciatis&hyphen; possimus quos temporibus est reprehenderit amet ea quibusdam aspernatur nihil,
+         officiis commodi laboriosam velit sint quidem dolorum itaque voluptatem officia?
+    </div>
+
+    <img src="/CSSS/img.jpg" alt="">
+    
+</body>
+</html>

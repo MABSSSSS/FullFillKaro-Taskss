@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding:30px;
+            margin:0;
+
+        }
+        #parent{
+            width: 600px;
+            border:1px solid pink;
+
+        }
+        .element{
+            background:pink;
+            width: min(50%, min(50%, 1000px));
+            padding: max(30px, 5vw) 10px;
+
+            width: clamp(350px,50%,500px);
+            font-size: clamp(16rem,5vw,3rem);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="element">
+        Lorem ipsum dolor sit amet.
+    </div>
+    <div id="parent">
+        <div class="class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nesciunt inventore voluptatem sapiente, aperiam corporis id expedita adipisci aspernatur cumque commodi voluptates provident dolores architecto nobis nulla quis facere enim.</div>
+    </div>
+    
+</body>
+</html>

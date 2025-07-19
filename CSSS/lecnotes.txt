@@ -452,3 +452,52 @@ Display Mode:@media-rule:
 
 
 Fullscreen PseduClass:
+
+Min max()  clamp function:
+
+
+Orientation Media Rule:
+
+
+has Pseudo Class:
+
+
+Print media:
+
+@page at-rule:
+
+Break before-after-inside:
+
+Inset:
+
+
+CSS Hypens And Hypenate-Characters:
+
+
+Object View Box:
+
+Nesting:
+
+Initial letter:
+
+
+Scrollbar Styling:
+
+Container Query
+
+Padding Inline And padding Block:
+
+
+CSS Text Wrap:
+
+Margin-inine and margin block:
+
+CSS Border-Inline And Border-Block:
+
+Block inline size:
+
+cascade layer:
+
+Aling-content:
+
+n-th of syntax:

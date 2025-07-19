@@ -1,0 +1,43 @@
+p{
+    font-family: Arial;
+    line-height: 25px;
+}
+
+h1,h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    color: red !important;
+}
+
+#menu,
+#sidebar,
+#footer{
+    display: none;
+
+}
+
+#content{
+    width:auto;
+    font-size: 20px;
+    line-height: 30px;
+
+
+}
+
+#content h2{
+    color:black;
+
+}
+#content a{
+    color: #000;
+}
+
+a[href]:after{
+    content: "{" attr(href) ")";
+}
+
+
+#header{
+    color:black;
+    border-bottom: 1px solid blue;
+}

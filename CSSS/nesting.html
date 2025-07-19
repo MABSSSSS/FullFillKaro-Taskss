@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Nesting</title>
+
+    <style>
+        #menu{
+            &li{
+                background: pink;
+
+                & a{
+                    color : red;
+                    text-decoration: none;
+
+                    &:hover{
+                        color:green;
+
+                    }
+                }
+            }
+        }
+
+        #box{
+            > h2{
+                color:green;
+
+
+            }
+             .demo{
+                color:red;
+            }
+            + h2{
+                color:blue;
+
+            }
+
+        }
+
+        .foo{
+            color:blue;
+
+
+            &.bar{
+                color:red;
+
+            }
+        }
+
+        body{
+            padding:20px;
+        }
+
+        p::first-letter{
+            color:red;
+            background: lightblue;
+            font-size: 50px;
+            font-weight: bold;
+            font-family: century;
+            margin-right: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            initial-letter: 3 1;
+
+
+        }
+
+        html{
+            scrollbar-color: pink purple;
+            scrollbar-width: thin;
+        }
+
+        #box{
+            width: 300px;
+            height: 300px;
+            background: lightgray;
+            overflow:auto;
+            scrollbar-color: yellow green;
+            scrollbar-width: thin;
+            scrollbar-width: auto;
+            scrollbar-gutter: stable both-edges;
+            
+        }
+
+    </style>
+
+</head>
+
+
+
+<body>
+    <ul id="menu">
+    <li><a href="">Link1</a></li>
+    <li><a href="">Link2</a></li>
+    <li><a href="">Link3</a></li>
+    <li><a href="">Link3</a></li>
+    </ul>
+
+
+    <div id="box">
+        <h2>Test 3</h2>
+        <div>
+            <h2>Test4</h2>
+        </div>
+        <h3 class="demo">Another Test</h3>
+    </div>
+
+    <h2>Test 1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, autem quos.</p>
+    <h2>Test2</h2>
+    
+    <div class="foo">Just Test1</div>
+    
+    <div class="foo bar">Just test 2</div>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus quae, beatae iste in voluptatem ad quidem animi ab architecto quaerat, possimus ducimus!</p>
+
+
+    <h2>Scrollbar</h2>
+
+    <div id="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam et veniam fugiat fuga voluptatum, accusantium voluptatibus blanditiis earum atque recusandae natus nemo quasi eaque, distinctio amet tempore consequuntur ullam minus doloribus suscipit, nulla repellendus! </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quam vitae ipsa non soluta laudantium sequi fuga reprehenderit fugiat quia dolor aut minima amet nostrum eaque ipsum similique assumenda excepturi voluptatem, dicta quibusdam repellendus. Ipsa, ratione tempore facere iste saepe minus expedita quod harum, nemo at laborum nesciunt molestiae quos!</p>
+
+</body>
+</html>

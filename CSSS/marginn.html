@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            border: 3px solid #000;
+            display:flex;
+        }
+        #container div{
+            background: lightgreen;
+            border: 3px solid green;
+        }
+        #container #box{
+            background: lightblue;
+            border: 3px solid blue;
+            margin-inline-start: 20px 40px;
+            writing-mode: vertical-rl;
+            height: 500px;
+            margin-block:20px 40px;
+            writing-mode: vertical-rl;
+
+        }
+        #box{
+
+            background: lemonchiffon;
+            width: 500px;
+            height: 400px;
+            padding: 15px;
+            border-inline: 10px solid black;
+            writing-mode: vertical-rl;
+            border-inline-style:dotted;
+            border-inline-width: 10px;
+
+            border-inline-end: 10px dashed green;
+            border-block: 10px solid black;
+            writing-mode: vertical-rl;
+
+            block-size: 150px;
+            writing-mode: vertical-rl;
+            height: 150px;
+
+            min-block-size: 150px;
+            max-block-size: 150px;
+
+            width: 200px;
+            writing-mode: vertical-rl;
+
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <div id="container">
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, quam deserunt?</div>
+    </div>
+    <div id="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, explicabo eos.</div>
+    
+</body>
+</html>

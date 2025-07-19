@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Pseudo Class</title>
+    <style>
+
+        @supports(selector(:has(p))){
+             label:has(+input:focus){
+            background: red;
+            color:#fff;
+
+        }
+
+
+        }
+
+        form:has(input[type="checkbox"]:checked) button{
+            background: lightblue;
+            color:white;
+
+
+        }
+        label:has(+input:focus){
+            background: red;
+            color:#fff;
+
+        }
+        div{
+            border:1px solid black;
+            padding: 10px;
+            margin-bottom:20px;
+        }
+
+        div:has(h2,h3,h4,p){
+
+            background: pink;
+
+        }
+
+        div:has(>h2)
+        {
+            background: pink;
+        }
+
+        h2:has(+ p){
+            color:red;
+
+        }
+
+        div:not(:has(h2)){
+            background:pink;
+
+        }
+        div:has(h3) li{
+            color:red;
+        }
+        div:has(+empty){
+            color:red;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <form action="">
+        <label for="">Name</label>
+        <input type="text"><br>
+
+        <label for="">Travelling</label>
+        <input type="checkbox" name="hobby"><br>
+
+        <label for="">Books</label>
+        <input type="checkbox" name="hobby"><br><br>
+
+        <button>Save</button>
+
+
+
+    </form>
+    <div>
+        <section class="abc">
+            <h2>Yahoo Sir</h2>
+        </section>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt possimus tenetur hic! Excepturi cum aperiam commodi expedita aut nobis. Aliquid obcaecati itaque vitae facilis veritatis iusto error dolore sunt accusamus.</p>
+    </div>
+
+    <div>
+        <h2>Just Testing</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, voluptate soluta.</p>
+    </div>
+
+    <div>
+        <h3>Just testing</h3>
+        <ul>
+            <li>Apple</li>
+            <li>Grapes</li>
+            <li>Apricot</li>
+            <li>Peach</li>
+        </ul>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,46 @@
+@page:first{
+    margin:2in 1in 1in;
+
+}
+@page: left{
+    /* margin: 0in 3in 2in 1in; */
+    margin-right:20% ;
+
+}
+@page: right{
+    margin-left: 30%;
+}
+
+@page {
+    size: landscape;
+}
+
+@page:first{size: portrait;
+}
+
+@page{
+    size: A3 landscape;
+}
+
+h2{
+    break-before: page;
+    break-after: page;
+
+}
+
+h2.test
+{
+    /* break-before:page; */
+
+
+}
+#box{
+    /* break-before: page; */
+    /* break-after: page; */
+
+}
+
+table{
+    break-inside: avoid;
+    
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Cascade Layer</title>
+    <style>
+
+        @layer three,two,one;
+
+
+        @layer one{
+            p{
+            color:green;
+        }
+
+        }
+        @layer two{
+            .first{
+            color:green !important;
+
+        }
+
+        }
+        @layer one.three,one.two;
+        @import url(/CSSS/position.html) layer(one);
+
+
+
+        @layer three{
+            
+        #second{
+            color:green;
+        }
+
+        @layer one{
+            @layer two{
+                .first{
+                    color:blue;
+                }
+
+            }
+        }
+
+
+        }
+
+        a{
+
+            color:red;
+        }
+
+        a{
+            color:green;
+        }
+
+        
+        h1 a#second{
+            color: #000;
+
+
+        }
+
+
+        #second{
+            color:blue;
+
+        }
+        
+        .first{
+            color:green;
+        }
+
+        .first{
+            border:3px solid orange;
+            background:wheat;
+            color:blue;
+            width:300px;
+            height:300px;
+            align-content: center;
+
+        }
+
+
+        #parent h2:nth-child(1){
+            color:red;
+
+        }
+
+        #parent :nth-last-child(2 of .test){
+            color:red;
+        }
+
+        #parent :nth-child(even of :not(.test)){
+
+            color:red;
+        }
+
+
+
+    </style>
+    
+</head>
+
+<body>
+    <a class="first" id="second" style="color:hotpink" href="">CSS @LAYER</a>
+
+    <p>Lorem, ipsum dolor.</p>
+    
+</body>
+</html>
